@@ -1,6 +1,6 @@
 {
   "name": "@rashid5925/express-postman-generator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Generate Postman collections from Express.js routes with a single command",
   "main": "lib/index.js",
   "bin": {
