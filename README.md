@@ -19,19 +19,19 @@ No more manual API documentation pain. This tool automatically analyzes your Exp
 ### Global Installation (Recommended)
 
 ```bash
-npm install -g express-postman-generator
+npm install -g @rashid5925/express-postman-generator
 ```
 
 ### Local Installation
 
 ```bash
-npm install --save-dev express-postman-generator
+npm install --save-dev @rashid5925/express-postman-generator
 ```
 
 ### Use with npx (No Installation)
 
 ```bash
-npx express-postman-generator
+npx @rashid5925/express-postman-generator
 ```
 
 ## Quick Start

@@ -3,7 +3,7 @@
 ## Installation
 
 ```bash
-npm install -g express-postman-generator
+npm install -g @rashid5925/express-postman-generator
 ```
 
 ## Usage
