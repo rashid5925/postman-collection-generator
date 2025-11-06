@@ -1,0 +1,18 @@
+{
+  "collectionName": "My API Collection",
+  "baseUrl": "http://localhost:3000",
+  "description": "API endpoints for my Express.js application",
+  "outputPath": "./postman-collection.json",
+  "includePatterns": [
+    "routes/**/*.js",
+    "src/routes/**/*.js",
+    "api/**/*.js"
+  ],
+  "excludePatterns": [
+    "node_modules/**",
+    "test/**",
+    "tests/**",
+    "**/*.test.js",
+    "**/*.spec.js"
+  ]
+}

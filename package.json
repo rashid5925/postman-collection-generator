@@ -1,0 +1,53 @@
+{
+  "name": "express-postman-generator",
+  "version": "1.0.0",
+  "description": "Generate Postman collections from Express.js routes with a single command",
+  "main": "lib/index.js",
+  "bin": {
+    "express-postman": "./bin/cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "postman",
+    "express",
+    "collection",
+    "api",
+    "documentation",
+    "generator",
+    "routes",
+    "rest",
+    "openapi",
+    "swagger",
+    "automation"
+  ],
+  "author": "Rashid <malikrashid82899@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rashid5925/express-postman-generator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rashid5925/express-postman-generator/issues"
+  },
+  "homepage": "https://github.com/rashid5925/express-postman-generator#readme",
+  "dependencies": {
+    "@babel/parser": "^7.23.0",
+    "@babel/traverse": "^7.23.0",
+    "commander": "^11.1.0",
+    "glob": "^10.3.10"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "files": [
+    "bin/",
+    "lib/",
+    "LICENSE",
+    "README.md",
+    "QUICKSTART.md",
+    ".postmanrc.example.json"
+  ]
+}

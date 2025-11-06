@@ -1,0 +1,43 @@
+# Development files
+*.test.js
+*.spec.js
+test/
+tests/
+coverage/
+
+# Examples and documentation (already in files array)
+examples/*.postman_collection.json
+
+# Git files
+.git/
+.gitignore
+.gitattributes
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+logs/
+
+# Development scripts
+pre-publish-check.sh
+
+# Documentation (keep only what's in files array)
+PROJECT_SUMMARY.md
+PUBLISHING.md
+QUICK_PUBLISH.md
+
+# Temporary files
+*.tmp
+tmp/
+temp/
